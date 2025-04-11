@@ -13,7 +13,7 @@ rcrng(uint16_t from, uint16_t to)
 
 **Scalability**
 
-This implementation requires drastically more cpu cycles than f.e. RDRAND, with which one can generate a random number from 3 to 9 in about 350–520 cycles.
+This implementation requires drastically more cpu cycles than f.e. RDRAND or Permuted Congruential Generator.
 
 **Safety Concerns**
 
